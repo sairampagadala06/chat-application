@@ -1,0 +1,139 @@
+/*chat*/
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /* Choose a preferred font family */
+  }
+  
+  /* Chat Header Styles */
+  .chatheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; /* Add a subtle border */
+    background-color:#87cefa; /* White background for the header */
+  }
+  
+  .chatheader h1 {
+    margin: 0;
+    font-size: 1.2rem; /* Adjust header text size */
+  }
+  
+  .chatlogout {
+    background-color: transparent; /* Remove default button background */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Indicate clickable behavior */
+    color: #333; /* Darker text color for the logout button */
+    font-weight: bold; /* Make logout button text bolder */
+  }
+  
+  /*inputtextt*/
+
+
+  .inputtext {
+    display: flex; /* Arrange elements horizontally */
+    align-items: center; /* Align vertically */
+    margin-top: 1rem; /* Add some space above the input */
+    padding: 0.5rem; /* Add some padding for better usability */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 4px; /* Round corners for a smoother look */
+  }
+  
+  .inputtext textarea {
+    flex: 1; /* Make textarea flexible to fill available space */
+    border: none; /* Remove default border from textarea */
+    outline: none; /* Remove default outline */
+    font-size: 1rem; /* Adjust font size for readability */
+    padding: 0.5rem; /* Add padding for better usability */
+    resize: none; /* Disable resizing of textarea */ /* Optional: Allow resizing if needed */
+  }
+  
+  .inputtext button {
+    margin-left: 1rem; /* Add some space between input and button */
+    padding: 0.5rem 1rem; /* Add some padding for the button */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Round corners for a smoother look */
+    background-color: #333; /* Darker background color for the button */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Indicate clickable behavior */
+    font-weight: bold; /* Make button text bolder */
+  }
+  
+  .inputtext button:hover {
+    background-color: #222; /* Slightly darker background on hover */
+  }
+  
+
+/*chatlsit*/
+.chat_sender{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.chat-list{
+    height: 75vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.chat{
+    padding: 10px;
+    background-color:#ddd;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.chat_receiver{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row ;
+}
+
+/*loginpage*/
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0e0e0; /* Light background color */
+    padding: 1rem;
+  }
+  
+  .loginpage h1 {
+    margin-bottom: 1rem; /* Add some space below the heading */
+    font-size: 2rem; /* Adjust heading font size */
+    color: #3498db; /* Blue heading color */
+  }
+  
+  .inputnanme {
+    margin-bottom: 1rem; /* Add some space between input and button */
+  }
+  
+  .inputnanme input {
+    padding: 0.75rem 1rem; /* Add padding for better usability */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 4px; /* Round corners for a smoother look */
+    font-size: 1rem; /* Adjust font size */
+    width: 100%; /* Make input fill available space */
+  }
+  
+  .inputnanme input:focus {
+    border-color: #3498db; /* Change border color on focus (match heading color) */
+    outline: none; /* Remove default outline */
+  }
+  
+  .inputbtn button {
+    padding: 0.75rem 1rem; /* Add padding for the button */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Round corners for a smoother look */
+    background-color: #2ecc71; /* Green button background color */
+    color: #fff; /* White button text color */
+    cursor: pointer; /* Indicate clickable behavior */
+    font-weight: bold; /* Make button text bolder */
+  }
+  
+  .inputbtn button:hover {
+    background-color: #27ae60; /* Slightly darker green on hover */
+  }
+  
